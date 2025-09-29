@@ -91,6 +91,3 @@ else:
 
 print(f"Rank {rank}: Finished")
 sys.stdout.flush()
-
-
-#mpiexec -n 4 --oversubscribe -v python3 base_parallel.py

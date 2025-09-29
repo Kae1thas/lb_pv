@@ -11,6 +11,3 @@ x = np.loadtxt('xData.dat')
 b = np.dot(A, x)
 np.savetxt('Results_seq.dat', b, fmt='%.6f')
 print(f"Последовательная версия: {time.time() - start_time} секунд")
-
-
-#python3 sequential.py

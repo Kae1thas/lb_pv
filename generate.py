@@ -6,6 +6,3 @@ with open('in.dat', 'w') as f:
     f.write(f"{M} {N}\n")
 np.savetxt('AData.dat', A, fmt='%.6f')
 np.savetxt('xData.dat', x.reshape(1, -1), fmt='%.6f', delimiter=' ')
-
-
-# python3 generate.py

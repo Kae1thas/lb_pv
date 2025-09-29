@@ -41,5 +41,3 @@ plt.title('Speedup vs Number of Processes')
 plt.grid(True)
 plt.legend()
 plt.savefig('speedup_plot.png')
-
-# python3 speedup.py
